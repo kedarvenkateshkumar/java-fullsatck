@@ -24,13 +24,14 @@ class ListNode{
             Node newNode = new Node(data);
 
             while(head.next != null){
-                
+
                 head = head.next;
             }
             head.next = newNode;
         }
         //delete a data from list
         public void delete(int data){
+            
             if(head == null) return;
             if(head.data == data) head = head.next;
 
