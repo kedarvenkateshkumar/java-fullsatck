@@ -1,4 +1,4 @@
-package Polymorphism.RunTime;
+package Polymorphism.RunTimePolymorphisum;
 
 class Payment{
     public void process(){

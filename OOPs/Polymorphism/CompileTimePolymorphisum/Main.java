@@ -1,4 +1,4 @@
-package Polymorphism.CompileTime;
+package Polymorphism.CompileTimePolymorphisum;
 
 import java.util.Scanner;
 
