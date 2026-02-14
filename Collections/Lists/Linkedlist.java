@@ -24,6 +24,7 @@ class ListNode{
             Node newNode = new Node(data);
 
             while(head.next != null){
+                
                 head = head.next;
             }
             head.next = newNode;
