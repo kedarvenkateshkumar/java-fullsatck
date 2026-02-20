@@ -8,10 +8,13 @@ public class Streams {
     public static void main(String[] args) {
         List<Integer> arr = Arrays.asList(21,43,23,10,20,6,8);
 
+        //Predicate for filter the stream (implementing inner working of filter)
         Predicate<Integer> p = t -> t%2==0;
 
+        //Function for maping the stream (implementing inner working of map)
         Function<Integer,Integer> fun = t -> t*2;
 
+        //Consumer for forEach loop (implementing inner working of forEcah)
         Consumer<Integer> con = t -> System.out.println(t);
             
         
@@ -20,9 +23,6 @@ public class Streams {
             .map(fun)
             .sorted()
             .forEach(con);
-
-
-
 
 
         // Stream<Integer> s1 = arr.stream();
